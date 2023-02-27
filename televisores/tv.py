@@ -66,3 +66,7 @@ class TV:
     
     def setControl(self, control):
         self.__control = control
+    
+    @classmethod
+    def getNumTV(cls):
+        return cls.numTV
